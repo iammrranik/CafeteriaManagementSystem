@@ -1,0 +1,67 @@
+@model BLL.DTOs.UserDTO
+
+@{
+    ViewData["Title"] = "Edit User";
+}
+
+<h2>Edit User</h2>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form action="/Admin/EditUser" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="Password" /> <!-- Retain password hash or current value -->
+
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="IdCardNo" class="form-label">ID Card Number</label>
+                <input asp-for="IdCardNo" class="form-control" />
+                <span asp-validation-for="IdCardNo" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label"></label>
+                <input asp-for="Email" class="form-control" type="email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">User Role</label>
+                <select asp-for="UserTypeId" class="form-select">
+                    @foreach (var type in ViewBag.Types)
+                    {
+                        <option value="@type.Id">@type.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="UserTypeId" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="WalletBalance" class="form-label">Wallet Balance</label>
+                <input asp-for="WalletBalance" class="form-control" type="number" step="any" />
+                <span asp-validation-for="WalletBalance" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="ProfileStatus" class="form-label">Profile Status Message</label>
+                <input asp-for="ProfileStatus" class="form-control" />
+                <span asp-validation-for="ProfileStatus" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save Changes</button>
+            <a href="/Admin/Users" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,49 @@
+@model BLL.DTOs.WalletTransactionDTO
+
+@{
+    ViewData["Title"] = "Record Transaction";
+}
+
+<h2>Record Wallet Deposit</h2>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form action="/Admin/RecordTransaction" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="mb-3">
+                <label class="form-label">User</label>
+                <select asp-for="UserId" class="form-select">
+                    <option disabled selected>--Select User--</option>
+                    @foreach (var user in ViewBag.Users)
+                    {
+                        <option value="@user.Id">@user.Name (@user.IdCardNo) - Current Bal: @user.WalletBalance TK</option>
+                    }
+                </select>
+                <span asp-validation-for="UserId" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Amount" class="form-label">Amount (TK)</label>
+                <input asp-for="Amount" class="form-control" type="number" step="any" min="1" placeholder="e.g. 500" />
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="TransactionType" class="form-label">Transaction Type</label>
+                <select asp-for="TransactionType" class="form-select">
+                    <option value="Deposit">Deposit (Manual Recharge)</option>
+                </select>
+                <span asp-validation-for="TransactionType" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Record Transaction</button>
+            <a href="/Admin/FinancialAudit" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

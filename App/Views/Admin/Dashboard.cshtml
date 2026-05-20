@@ -1,0 +1,73 @@
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container text-center my-5">
+    <div class="jumbotron bg-light p-5 rounded">
+        <h1 class="display-4 text-primary">Cafeteria Administration Portal</h1>
+        <p class="lead">Manage cafeteria operations, audit logs, inspect transactions, and perform system administrative actions.</p>
+        <hr class="my-4">
+        
+        @if (TempData["Msg"] != null)
+        {
+            <div class="alert alert-info">@TempData["Msg"]</div>
+        }
+
+        <div class="row g-4 mt-2">
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">User Types</h5>
+                        <p class="card-text">Define and manage user roles such as Customer and Admin.</p>
+                        <a href="/Admin/UserTypes" class="btn btn-outline-primary w-100">Manage Roles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Users</h5>
+                        <p class="card-text">View and manage registered accounts, balances, and details.</p>
+                        <a href="/Admin/Users" class="btn btn-outline-primary w-100">Manage Users</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Menu Items</h5>
+                        <p class="card-text">Update food stock, prices, categories, and inventory.</p>
+                        <a href="/Admin/MenuItems" class="btn btn-outline-primary w-100">Manage Menu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Bookings</h5>
+                        <p class="card-text">Track all meal bookings, filter by date, or issue cancellations.</p>
+                        <a href="/Admin/Bookings" class="btn btn-outline-primary w-100">Manage Bookings</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Financial Audit</h5>
+                        <p class="card-text">Trace transactions, manually adjust wallets, and balance books.</p>
+                        <a href="/Admin/FinancialAudit" class="btn btn-outline-primary w-100">Audit Finances</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">System Logs</h5>
+                        <p class="card-text">Review real-time operations, auditing events, and system activities.</p>
+                        <a href="/Admin/Logs" class="btn btn-outline-secondary w-100">System Logs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+F:\Projects\CafeteriaManagementSystem\BLL\bin\Debug\net10.0\BLL.deps.json
+F:\Projects\CafeteriaManagementSystem\BLL\bin\Debug\net10.0\BLL.dll
+F:\Projects\CafeteriaManagementSystem\BLL\bin\Debug\net10.0\BLL.pdb
+F:\Projects\CafeteriaManagementSystem\BLL\bin\Debug\net10.0\DAL.dll
+F:\Projects\CafeteriaManagementSystem\BLL\bin\Debug\net10.0\DAL.pdb
+F:\Projects\CafeteriaManagementSystem\BLL\obj\Debug\net10.0\BLL.csproj.AssemblyReference.cache
+F:\Projects\CafeteriaManagementSystem\BLL\obj\Debug\net10.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\CafeteriaManagementSystem\BLL\obj\Debug\net10.0\BLL.AssemblyInfoInputs.cache
+F:\Projects\CafeteriaManagementSystem\BLL\obj\Debug\net10.0\BLL.AssemblyInfo.cs
+F:\Projects\CafeteriaManagementSystem\BLL\obj\Debug\net10.0\BLL.csproj.CoreCompileInputs.cache
+F:\Projects\CafeteriaManagementSystem\BLL\obj\Debug\net10.0\BLL.csproj.Up2Date
+F:\Projects\CafeteriaManagementSystem\BLL\obj\Debug\net10.0\BLL.dll
+F:\Projects\CafeteriaManagementSystem\BLL\obj\Debug\net10.0\refint\BLL.dll
+F:\Projects\CafeteriaManagementSystem\BLL\obj\Debug\net10.0\BLL.pdb
+F:\Projects\CafeteriaManagementSystem\BLL\obj\Debug\net10.0\ref\BLL.dll

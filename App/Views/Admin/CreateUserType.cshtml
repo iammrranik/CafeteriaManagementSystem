@@ -1,0 +1,29 @@
+@model BLL.DTOs.UserTypeDTO
+
+@{
+    ViewData["Title"] = "Create User Type";
+}
+
+<h2>Create User Type</h2>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form action="/Admin/CreateUserType" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label"></label>
+                <input asp-for="Name" class="form-control" placeholder="e.g. Staff, Faculty" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Create</button>
+            <a href="/Admin/UserTypes" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

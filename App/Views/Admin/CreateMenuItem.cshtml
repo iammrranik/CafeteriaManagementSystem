@@ -1,0 +1,53 @@
+@model BLL.DTOs.MenuItemDTO
+
+@{
+    ViewData["Title"] = "Create Menu Item";
+}
+
+<h2>Create Menu Item</h2>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form action="/Admin/CreateMenuItem" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="mb-3">
+                <label asp-for="ItemName" class="form-label">Item Name</label>
+                <input asp-for="ItemName" class="form-control" />
+                <span asp-validation-for="ItemName" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Price" class="form-label"></label>
+                <input asp-for="Price" class="form-control" type="number" step="any" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Category" class="form-label"></label>
+                <select asp-for="Category" class="form-select">
+                    <option disabled selected>--Select Category--</option>
+                    <option value="Breakfast">Breakfast</option>
+                    <option value="Lunch">Lunch</option>
+                    <option value="Snacks">Snacks</option>
+                    <option value="Drinks">Drinks</option>
+                </select>
+                <span asp-validation-for="Category" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="AvailableQuantity" class="form-label">Available Quantity</label>
+                <input asp-for="AvailableQuantity" class="form-control" type="number" />
+                <span asp-validation-for="AvailableQuantity" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Create Menu Item</button>
+            <a href="/Admin/MenuItems" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

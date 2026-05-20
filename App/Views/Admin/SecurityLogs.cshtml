@@ -1,0 +1,35 @@
+@model IEnumerable<BLL.DTOs.SystemLogDTO>
+
+@{
+    ViewData["Title"] = "Security Logs";
+}
+
+<h2>Security Auditing Trails</h2>
+<p class="text-muted">Trace sensitive system registrations, profile modifications, and transactions.</p>
+<hr />
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Event ID</th>
+            <th>Operator User ID</th>
+            <th>Log Details</th>
+            <th>Timestamp</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="@(item.Message.Contains("Delete") || item.Message.Contains("cancel") || item.Message.Contains("failed") ? "table-warning" : "table-light")">
+                <td>@item.Id</td>
+                <td>@item.UserId</td>
+                <td>@item.Message</td>
+                <td>@item.CreatedAt.ToString("yyyy-MM-dd HH:mm:ss")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a href="/Admin/Dashboard" class="btn btn-secondary">Back to Dashboard</a>
+</div>

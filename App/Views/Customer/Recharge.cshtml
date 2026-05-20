@@ -1,0 +1,41 @@
+@model BLL.DTOs.WalletTransactionDTO
+
+@{
+    ViewData["Title"] = "Recharge Wallet";
+}
+
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <div class="card shadow mt-5">
+            <div class="card-header bg-success text-white">
+                <h4 class="mb-0">Recharge Your Wallet</h4>
+            </div>
+            <div class="card-body">
+                <p class="text-muted">Your current balance is: <strong>@ViewBag.CurrentBalance TK</strong></p>
+                <hr />
+                
+                <form action="/Customer/Recharge" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <input type="hidden" asp-for="UserId" />
+                    <input type="hidden" asp-for="TransactionType" value="Deposit" />
+
+                    <div class="mb-3">
+                        <label asp-for="Amount" class="form-label">Enter Recharge Amount (TK):</label>
+                        <input asp-for="Amount" class="form-control" type="number" step="any" min="1" placeholder="e.g. 500" required />
+                        <span asp-validation-for="Amount" class="text-danger"></span>
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-success">Confirm Deposit</button>
+                        <a href="/Customer/Index" class="btn btn-secondary">Back to Menu</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

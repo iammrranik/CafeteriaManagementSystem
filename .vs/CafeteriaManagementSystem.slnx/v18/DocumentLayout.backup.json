@@ -1,0 +1,550 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Projects\\CafeteriaManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBE5441-51E0-425B-851D-6A6A40376F54}|DAL\\DAL.csproj|f:\\projects\\cafeteriamanagementsystem\\dal\\commands.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9BBE5441-51E0-425B-851D-6A6A40376F54}|DAL\\DAL.csproj|solutionrelative:dal\\commands.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_QT7E5RH_SQLEXPRESS/CafeteriaDb/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5136843-23C1-406D-8D0E-F5EBAFE13DAF}|BLL\\BLL.csproj|f:\\projects\\cafeteriamanagementsystem\\bll\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5136843-23C1-406D-8D0E-F5EBAFE13DAF}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|f:\\projects\\cafeteriamanagementsystem\\app\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|solutionrelative:app\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBE5441-51E0-425B-851D-6A6A40376F54}|DAL\\DAL.csproj|f:\\projects\\cafeteriamanagementsystem\\dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBE5441-51E0-425B-851D-6A6A40376F54}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5136843-23C1-406D-8D0E-F5EBAFE13DAF}|BLL\\BLL.csproj|f:\\projects\\cafeteriamanagementsystem\\bll\\dtos\\mealbookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5136843-23C1-406D-8D0E-F5EBAFE13DAF}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\mealbookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBE5441-51E0-425B-851D-6A6A40376F54}|DAL\\DAL.csproj|f:\\projects\\cafeteriamanagementsystem\\dal\\implementation.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{9BBE5441-51E0-425B-851D-6A6A40376F54}|DAL\\DAL.csproj|solutionrelative:dal\\implementation.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_QT7E5RH_SQLEXPRESS/CafeteriaDb/True/SqlTable/dbo.MealBookings.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_QT7E5RH_SQLEXPRESS/CafeteriaDb/True/SqlTable/dbo.MenuItems.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBE5441-51E0-425B-851D-6A6A40376F54}|DAL\\DAL.csproj|f:\\projects\\cafeteriamanagementsystem\\dal\\db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{9BBE5441-51E0-425B-851D-6A6A40376F54}|DAL\\DAL.csproj|solutionrelative:dal\\db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|f:\\projects\\cafeteriamanagementsystem\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|solutionrelative:app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|f:\\projects\\cafeteriamanagementsystem\\app\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|solutionrelative:app\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|f:\\projects\\cafeteriamanagementsystem\\app\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|solutionrelative:app\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|f:\\projects\\cafeteriamanagementsystem\\app\\authfilters\\customeraccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|solutionrelative:app\\authfilters\\customeraccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|f:\\projects\\cafeteriamanagementsystem\\app\\authfilters\\adminaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|solutionrelative:app\\authfilters\\adminaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|f:\\projects\\cafeteriamanagementsystem\\app\\authfilters\\logged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|solutionrelative:app\\authfilters\\logged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5136843-23C1-406D-8D0E-F5EBAFE13DAF}|BLL\\BLL.csproj|f:\\projects\\cafeteriamanagementsystem\\bll\\dtos\\usertypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5136843-23C1-406D-8D0E-F5EBAFE13DAF}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\usertypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|f:\\projects\\cafeteriamanagementsystem\\app\\views\\auth\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|solutionrelative:app\\views\\auth\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|f:\\projects\\cafeteriamanagementsystem\\app\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|solutionrelative:app\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|f:\\projects\\cafeteriamanagementsystem\\app\\validations\\uniqueidcardno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|solutionrelative:app\\validations\\uniqueidcardno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|f:\\projects\\cafeteriamanagementsystem\\app\\views\\auth\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|solutionrelative:app\\views\\auth\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5136843-23C1-406D-8D0E-F5EBAFE13DAF}|BLL\\BLL.csproj|f:\\projects\\cafeteriamanagementsystem\\bll\\services\\wallettransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5136843-23C1-406D-8D0E-F5EBAFE13DAF}|BLL\\BLL.csproj|solutionrelative:bll\\services\\wallettransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5136843-23C1-406D-8D0E-F5EBAFE13DAF}|BLL\\BLL.csproj|f:\\projects\\cafeteriamanagementsystem\\bll\\services\\usertypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5136843-23C1-406D-8D0E-F5EBAFE13DAF}|BLL\\BLL.csproj|solutionrelative:bll\\services\\usertypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5136843-23C1-406D-8D0E-F5EBAFE13DAF}|BLL\\BLL.csproj|f:\\projects\\cafeteriamanagementsystem\\bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5136843-23C1-406D-8D0E-F5EBAFE13DAF}|BLL\\BLL.csproj|solutionrelative:bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5136843-23C1-406D-8D0E-F5EBAFE13DAF}|BLL\\BLL.csproj|f:\\projects\\cafeteriamanagementsystem\\bll\\services\\systemlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5136843-23C1-406D-8D0E-F5EBAFE13DAF}|BLL\\BLL.csproj|solutionrelative:bll\\services\\systemlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5136843-23C1-406D-8D0E-F5EBAFE13DAF}|BLL\\BLL.csproj|f:\\projects\\cafeteriamanagementsystem\\bll\\services\\menuitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5136843-23C1-406D-8D0E-F5EBAFE13DAF}|BLL\\BLL.csproj|solutionrelative:bll\\services\\menuitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5136843-23C1-406D-8D0E-F5EBAFE13DAF}|BLL\\BLL.csproj|f:\\projects\\cafeteriamanagementsystem\\bll\\services\\mealbookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5136843-23C1-406D-8D0E-F5EBAFE13DAF}|BLL\\BLL.csproj|solutionrelative:bll\\services\\mealbookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5136843-23C1-406D-8D0E-F5EBAFE13DAF}|BLL\\BLL.csproj|f:\\projects\\cafeteriamanagementsystem\\bll\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5136843-23C1-406D-8D0E-F5EBAFE13DAF}|BLL\\BLL.csproj|solutionrelative:bll\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBE5441-51E0-425B-851D-6A6A40376F54}|DAL\\DAL.csproj|f:\\projects\\cafeteriamanagementsystem\\dal\\ef\\tables\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBE5441-51E0-425B-851D-6A6A40376F54}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tables\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBE5441-51E0-425B-851D-6A6A40376F54}|DAL\\DAL.csproj|f:\\projects\\cafeteriamanagementsystem\\dal\\ef\\tables\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BBE5441-51E0-425B-851D-6A6A40376F54}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tables\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|f:\\projects\\cafeteriamanagementsystem\\app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4557F1C7-DB23-4D60-861F-98520A743BE6}|App\\App.csproj|solutionrelative:app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BBE5441-51E0-425B-851D-6A6A40376F54}|DAL\\DAL.csproj|f:\\projects\\cafeteriamanagementsystem\\dal\\db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{9BBE5441-51E0-425B-851D-6A6A40376F54}|DAL\\DAL.csproj|solutionrelative:dal\\db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "commands.txt",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\DAL\\commands.txt",
+              "RelativeDocumentMoniker": "DAL\\commands.txt",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\DAL\\commands.txt",
+              "RelativeToolTip": "DAL\\commands.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-05-20T05:42:52.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\BLL\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\UserDTO.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\BLL\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T05:38:47.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "db.sql ",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\DAL\\db.sql",
+              "RelativeDocumentMoniker": "DAL\\db.sql",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\DAL\\db.sql",
+              "RelativeToolTip": "DAL\\db.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-20T04:54:58.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Registration.cshtml",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\App\\Views\\Auth\\Registration.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Auth\\Registration.cshtml",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\App\\Views\\Auth\\Registration.cshtml",
+              "RelativeToolTip": "App\\Views\\Auth\\Registration.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T03:56:58.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminAccess.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\App\\AuthFilters\\AdminAccess.cs",
+              "RelativeDocumentMoniker": "App\\AuthFilters\\AdminAccess.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\App\\AuthFilters\\AdminAccess.cs",
+              "RelativeToolTip": "App\\AuthFilters\\AdminAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T02:37:42.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Logged.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\App\\AuthFilters\\Logged.cs",
+              "RelativeDocumentMoniker": "App\\AuthFilters\\Logged.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\App\\AuthFilters\\Logged.cs",
+              "RelativeToolTip": "App\\AuthFilters\\Logged.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T02:38:08.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\App\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "App\\Controllers\\AdminController.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\App\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "App\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAH8BAAAAAAAAAAAiwEcBAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T03:31:11.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_QT7E5RH_SQLEXPRESS/CafeteriaDb/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-20T05:22:45.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dbo.MenuItems [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_QT7E5RH_SQLEXPRESS/CafeteriaDb/True/SqlTable/dbo.MenuItems.sql",
+              "ToolTip": "dbo.MenuItems [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-20T05:18:24.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "implementation.md",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\DAL\\implementation.md",
+              "RelativeDocumentMoniker": "DAL\\implementation.md",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\DAL\\implementation.md",
+              "RelativeToolTip": "DAL\\implementation.md",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-20T05:28:42.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\DAL\\Repos\\UserRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\UserRepo.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\DAL\\Repos\\UserRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\UserRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T05:05:06.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerAccess.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\App\\AuthFilters\\CustomerAccess.cs",
+              "RelativeDocumentMoniker": "App\\AuthFilters\\CustomerAccess.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\App\\AuthFilters\\CustomerAccess.cs",
+              "RelativeToolTip": "App\\AuthFilters\\CustomerAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T02:38:27.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dbo.MealBookings [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_QT7E5RH_SQLEXPRESS/CafeteriaDb/True/SqlTable/dbo.MealBookings.sql",
+              "ToolTip": "dbo.MealBookings [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-20T05:18:26.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MealBookingDTO.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\BLL\\DTOs\\MealBookingDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\MealBookingDTO.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\BLL\\DTOs\\MealBookingDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\MealBookingDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T03:27:44.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\App\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "App\\Controllers\\AuthController.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\App\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "App\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswC0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T02:31:31.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\App\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "App\\Controllers\\CustomerController.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\App\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "App\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T03:45:45.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\App\\Program.cs",
+              "RelativeDocumentMoniker": "App\\Program.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\App\\Program.cs",
+              "RelativeToolTip": "App\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T03:39:06.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserTypeDTO.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\BLL\\DTOs\\UserTypeDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\UserTypeDTO.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\BLL\\DTOs\\UserTypeDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\UserTypeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T04:00:07.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\App\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\App\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "App\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T03:42:32.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UniqueIdCardNo.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\App\\Validations\\UniqueIdCardNo.cs",
+              "RelativeDocumentMoniker": "App\\Validations\\UniqueIdCardNo.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\App\\Validations\\UniqueIdCardNo.cs",
+              "RelativeToolTip": "App\\Validations\\UniqueIdCardNo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T03:52:56.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DashBoard.cshtml",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\App\\Views\\Auth\\DashBoard.cshtml",
+              "RelativeDocumentMoniker": "App\\Views\\Auth\\DashBoard.cshtml",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\App\\Views\\Auth\\DashBoard.cshtml",
+              "RelativeToolTip": "App\\Views\\Auth\\DashBoard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T03:41:32.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserTypeService.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\BLL\\Services\\UserTypeService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\UserTypeService.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\BLL\\Services\\UserTypeService.cs",
+              "RelativeToolTip": "BLL\\Services\\UserTypeService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAywDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T03:27:27.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "WalletTransactionService.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\BLL\\Services\\WalletTransactionService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\WalletTransactionService.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\BLL\\Services\\WalletTransactionService.cs",
+              "RelativeToolTip": "BLL\\Services\\WalletTransactionService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAUwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T03:27:33.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\BLL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\UserService.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\BLL\\Services\\UserService.cs",
+              "RelativeToolTip": "BLL\\Services\\UserService.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T03:27:19.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SystemLogService.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\BLL\\Services\\SystemLogService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\SystemLogService.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\BLL\\Services\\SystemLogService.cs",
+              "RelativeToolTip": "BLL\\Services\\SystemLogService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAywDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T03:27:11.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MenuItemService.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\BLL\\Services\\MenuItemService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\MenuItemService.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\BLL\\Services\\MenuItemService.cs",
+              "RelativeToolTip": "BLL\\Services\\MenuItemService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAiwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T03:27:03.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MealBookingService.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\BLL\\Services\\MealBookingService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\MealBookingService.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\BLL\\Services\\MealBookingService.cs",
+              "RelativeToolTip": "BLL\\Services\\MealBookingService.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAqwKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T03:26:57.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MapperConfig.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\BLL\\MapperConfig.cs",
+              "RelativeDocumentMoniker": "BLL\\MapperConfig.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\BLL\\MapperConfig.cs",
+              "RelativeToolTip": "BLL\\MapperConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T03:18:41.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserType.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\DAL\\EF\\Tables\\UserType.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Tables\\UserType.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\DAL\\EF\\Tables\\UserType.cs",
+              "RelativeToolTip": "DAL\\EF\\Tables\\UserType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T03:05:43.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\DAL\\EF\\Tables\\User.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Tables\\User.cs",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\DAL\\EF\\Tables\\User.cs",
+              "RelativeToolTip": "DAL\\EF\\Tables\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T03:04:46.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Projects\\CafeteriaManagementSystem\\App\\appsettings.json",
+              "RelativeDocumentMoniker": "App\\appsettings.json",
+              "ToolTip": "F:\\Projects\\CafeteriaManagementSystem\\App\\appsettings.json",
+              "RelativeToolTip": "App\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-20T02:57:26.129Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

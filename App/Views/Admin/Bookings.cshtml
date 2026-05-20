@@ -1,0 +1,76 @@
+@model IEnumerable<BLL.DTOs.MealBookingDTO>
+
+@{
+    ViewData["Title"] = "Meal Bookings";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>Meal Bookings</h2>
+    <a href="/Admin/CreateBooking" class="btn btn-primary">Create Booking Manually</a>
+</div>
+
+@if (TempData["Msg"] != null)
+{
+    <div class="alert alert-info">@TempData["Msg"]</div>
+}
+
+<div class="card mb-4 bg-light shadow-sm">
+    <div class="card-body">
+        <h5 class="card-title text-danger">Operational Emergency (Bulk Cancel & Refund)</h5>
+        <p class="card-text">Select a date to cancel all meal bookings for that day and automatically refund user wallets.</p>
+        <form action="/Admin/CancelDay" method="post" class="row row-cols-lg-auto g-3 align-items-center">
+            <div class="col-12">
+                <input type="date" name="bookingDate" class="form-control" required />
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-danger" onclick="return confirm('WARNING: This will cancel all bookings and refund wallets for this entire day. Proceed?');">Execute Cancellation & Refund</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Booking ID</th>
+            <th>User ID</th>
+            <th>Menu Item ID</th>
+            <th>Ordered Qty</th>
+            <th>Total Cost</th>
+            <th>Booking Date</th>
+            <th>Created At</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.UserId</td>
+                <td>@item.MenuItemId</td>
+                <td>@item.OrderedQuantity</td>
+                <td>@item.TotalPrice TK</td>
+                <td>@item.BookingDate.ToString("yyyy-MM-dd")</td>
+                <td>@item.CreatedAt.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                <td>
+                    <span class="badge @(item.Status == "Booked" ? "bg-success" : "bg-secondary")">@item.Status</span>
+                </td>
+                <td>
+                    <div class="d-flex gap-2">
+                        <a href="/Admin/EditBooking/@item.Id" class="btn btn-sm btn-warning">Edit</a>
+                        <form action="/Admin/DeleteBooking" method="post" onsubmit="return confirm('Are you sure you want to delete this booking record?');">
+                            <input type="hidden" name="id" value="@item.Id" />
+                            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a href="/Admin/Dashboard" class="btn btn-secondary">Back to Dashboard</a>
+</div>

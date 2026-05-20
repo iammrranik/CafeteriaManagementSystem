@@ -1,0 +1,59 @@
+@model BLL.DTOs.MealBookingDTO
+
+@{
+    ViewData["Title"] = "Create Booking";
+}
+
+<h2>Create Booking Manually</h2>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form action="/Admin/CreateBooking" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="mb-3">
+                <label class="form-label">User</label>
+                <select asp-for="UserId" class="form-select">
+                    <option disabled selected>--Select User--</option>
+                    @foreach (var user in ViewBag.Users)
+                    {
+                        <option value="@user.Id">@user.Name (@user.IdCardNo) - Bal: @user.WalletBalance TK</option>
+                    }
+                </select>
+                <span asp-validation-for="UserId" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Menu Item</label>
+                <select asp-for="MenuItemId" class="form-select">
+                    <option disabled selected>--Select Menu Item--</option>
+                    @foreach (var item in ViewBag.MenuItems)
+                    {
+                        <option value="@item.Id">@item.ItemName - @item.Price TK (Stock: @item.AvailableQuantity)</option>
+                    }
+                </select>
+                <span asp-validation-for="MenuItemId" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="OrderedQuantity" class="form-label">Quantity</label>
+                <input asp-for="OrderedQuantity" class="form-control" type="number" value="1" />
+                <span asp-validation-for="OrderedQuantity" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="BookingDate" class="form-label">Booking Date</label>
+                <input asp-for="BookingDate" class="form-control" type="date" value="@DateTime.Today.ToString("yyyy-MM-dd")" />
+                <span asp-validation-for="BookingDate" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Create Booking</button>
+            <a href="/Admin/Bookings" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

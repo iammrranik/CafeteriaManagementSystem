@@ -1,0 +1,61 @@
+@model IEnumerable<BLL.DTOs.MenuItemDTO>
+
+@{
+    ViewData["Title"] = "Personalized Menu Audit";
+}
+
+<h2>Personalized Recommendation Audit</h2>
+<p class="text-muted">Analyze customized menu layouts tailored to user order histories.</p>
+<hr />
+
+<div class="card mb-4 bg-light shadow-sm">
+    <div class="card-body">
+        <form action="/Admin/TrendingItems" method="get" class="row row-cols-lg-auto g-3 align-items-center">
+            <div class="col-12">
+                <label class="form-label">Enter User ID:</label>
+            </div>
+            <div class="col-12">
+                <input type="number" name="userId" class="form-control" placeholder="User ID" required />
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Generate Recommendations</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@if (Model != null && Model.Any())
+{
+    <h5>Recommended Menu Items (Favorites sorted to the top)</h5>
+    <table class="table table-bordered table-striped mt-3">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Item Name</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>Available Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.ItemName</td>
+                    <td>@item.Price TK</td>
+                    <td>@item.Category</td>
+                    <td>@item.AvailableQuantity</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else if (Model != null)
+{
+    <p>No items found or invalid User ID.</p>
+}
+
+<div>
+    <a href="/Admin/Dashboard" class="btn btn-secondary">Back to Dashboard</a>
+</div>

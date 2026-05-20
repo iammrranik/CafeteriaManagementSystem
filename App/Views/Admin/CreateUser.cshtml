@@ -1,0 +1,71 @@
+@model BLL.DTOs.UserDTO
+
+@{
+    ViewData["Title"] = "Create User";
+}
+
+<h2>Create User</h2>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form action="/Admin/CreateUser" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="IdCardNo" class="form-label">ID Card Number</label>
+                <input asp-for="IdCardNo" class="form-control" />
+                <span asp-validation-for="IdCardNo" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label"></label>
+                <input asp-for="Email" class="form-control" type="email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Password" class="form-label"></label>
+                <input asp-for="Password" class="form-control" type="password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">User Role</label>
+                <select asp-for="UserTypeId" class="form-select">
+                    <option disabled selected>--Select Role--</option>
+                    @foreach (var type in ViewBag.Types)
+                    {
+                        <option value="@type.Id">@type.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="UserTypeId" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="WalletBalance" class="form-label">Initial Wallet Balance</label>
+                <input asp-for="WalletBalance" class="form-control" type="number" step="any" value="0.0" />
+                <span asp-validation-for="WalletBalance" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="ProfileStatus" class="form-label">Profile Status Message</label>
+                <input asp-for="ProfileStatus" class="form-control" />
+                <span asp-validation-for="ProfileStatus" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Create User</button>
+            <a href="/Admin/Users" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,75 @@
+@model BLL.DTOs.MealBookingDTO
+
+@{
+    ViewData["Title"] = "Edit Booking";
+}
+
+<h2>Edit Booking Details</h2>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form action="/Admin/EditBooking" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="CreatedAt" />
+
+            <div class="mb-3">
+                <label class="form-label">User</label>
+                <select asp-for="UserId" class="form-select">
+                    @foreach (var user in ViewBag.Users)
+                    {
+                        <option value="@user.Id">@user.Name (@user.IdCardNo)</option>
+                    }
+                </select>
+                <span asp-validation-for="UserId" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Menu Item</label>
+                <select asp-for="MenuItemId" class="form-select">
+                    @foreach (var item in ViewBag.MenuItems)
+                    {
+                        <option value="@item.Id">@item.ItemName - @item.Price TK</option>
+                    }
+                </select>
+                <span asp-validation-for="MenuItemId" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="OrderedQuantity" class="form-label">Quantity</label>
+                <input asp-for="OrderedQuantity" class="form-control" type="number" />
+                <span asp-validation-for="OrderedQuantity" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="TotalPrice" class="form-label">Total Price (TK)</label>
+                <input asp-for="TotalPrice" class="form-control" type="number" step="any" />
+                <span asp-validation-for="TotalPrice" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="BookingDate" class="form-label">Booking Date</label>
+                <input asp-for="BookingDate" class="form-control" type="date" value="@Model.BookingDate.ToString("yyyy-MM-dd")" />
+                <span asp-validation-for="BookingDate" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Status" class="form-label">Status</label>
+                <select asp-for="Status" class="form-select">
+                    <option value="Booked">Booked</option>
+                    <option value="Cancelled">Cancelled</option>
+                </select>
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save Changes</button>
+            <a href="/Admin/Bookings" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

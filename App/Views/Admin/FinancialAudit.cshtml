@@ -1,0 +1,50 @@
+@model IEnumerable<BLL.DTOs.WalletTransactionDTO>
+
+@{
+    ViewData["Title"] = "Financial Audit";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>Financial Audit Logs</h2>
+    <a href="/Admin/RecordTransaction" class="btn btn-success">Record Manual Wallet Recharge</a>
+</div>
+
+@if (TempData["Msg"] != null)
+{
+    <div class="alert alert-info">@TempData["Msg"]</div>
+}
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Transaction ID</th>
+            <th>User ID</th>
+            <th>Amount</th>
+            <th>Type</th>
+            <th>Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="@(item.Amount > 0 ? "table-success" : "table-light")">
+                <td>@item.Id</td>
+                <td>@item.UserId</td>
+                <td>@item.Amount TK</td>
+                <td>@item.TransactionType</td>
+                <td>@item.TransactionDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                <td>
+                    <form action="/Admin/DeleteTransaction" method="post" onsubmit="return confirm('Are you sure you want to delete this transaction record?');">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a href="/Admin/Dashboard" class="btn btn-secondary">Back to Dashboard</a>
+</div>
