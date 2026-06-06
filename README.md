@@ -1,4 +1,4 @@
-# 🍽️ Cafeteria Management System (ASP.NET Core MVC Project)
+# 🍽️ Cafeteria Management System (ASP.NET Core)
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:11998e,100:38ef7d&height=200&section=header&text=Cafeteria%20Management&fontSize=40&fontColor=ffffff&animation=fadeIn"/>
